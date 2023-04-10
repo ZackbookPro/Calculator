@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(images/watermelon-skin.jpg);
+}
+
+.calc-body {
+  background-image: url(images/watermelon.jpg);
+  margin: 5rem auto;
+  border: 2px solid black;
+  height: 40rem;
+  width: 30rem;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+
+.calc-screen {
+  background-color: white;
+  opacity: 90%;
+  border: 2px solid black;
+  height: 5rem;
+  margin-top: 1rem;
+  border-radius: 20px;
+  text-align: right;
+}
+
+.calc-screen p {
+  font-size: 60px;
+  margin-top: 3px;
+}
+
+.button {
+  background-color: white;
+  opacity: 90%;
+  border: 2px solid black;
+  height: 5rem;
+  width: 5rem;
+  font-size: 80px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 1px 1px black;
+}
+
+
+
+
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active{
+  border: 1px solid black;
+  box-shadow: 1px 1px grey;
+
+}
+
+.grid-container {
+  margin-left: 2.2rem;
+  margin-top: 2rem;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+
+.button-2 {
+  background-color: white;
+  opacity: 90%;
+  border: 2px solid black;
+  height: 5rem;
+  width: 11.5rem;
+  font-size: 80px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 1px 1px black;
+  grid-column: span 2;
+}
+
+
+.button-2:hover {
+  cursor: pointer;
+}
+
+.button-2:active{
+  border: 1px solid black;
+  box-shadow: 1px 1px grey;
+
+
+}
